@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>ToDo App</title>
+  </head>
+  <body>
+    <div class="todo-app">
+      <div class="header">
+        <h1 class="title">ToDo App</h1>
+        <div class="input-wrapper">
+          <i class="fa-solid fa-angle-down mark-all"></i>
+          <input type="text" class="add-input" placeholder="Your to do ?" />
+        </div>
+      </div>
+      <div class="main">
+        <ul class="todos">
+          <!-- <li class="todo">
+            <input type="checkbox" class="mark" />
+            <p class="content completed">todo</p>
+            <i class="fa-solid fa-xmark del-todo"></i>
+            <input type="text" class="edit" />
+          </li> -->
+        </ul>
+      </div>
+      <div class="footer">
+        <div class="items-left"></div>
+        <div class="filter-action">
+          <button class="footer-btn all focus">All</button>
+          <button class="footer-btn active">Active</button>
+          <button class="footer-btn completed-item">Completed</button>
+        </div>
+        <button class="footer-btn clear-completed">Clear completed</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
